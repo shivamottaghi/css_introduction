@@ -1,0 +1,22 @@
+table ,th ,td {
+    alignment: center;
+    border: darkgray solid medium;
+}
+
+div{
+    text-align: center;
+    alignment: center;
+}
+
+ul{
+    alignment: center;
+}
+#selfimage{
+    height: 100px;
+}
+#arrows{
+    height: 100px;
+}
+span{
+    vertical-align: middle;
+}
