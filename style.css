@@ -3,7 +3,10 @@
     height: 200px;
 }
 
-#arrows{
+#arrow1{
+    height: 50px;
+}
+#arrow2{
     height: 50px;
 }
 
@@ -13,6 +16,22 @@
     background-color: #c690ff;
     margin: fill;
 }
+.makecenter {
+    text-align: center;
+}
+.container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-content: center;
+    gap: 10px;
+    background-color: #a79aff;
+    padding: 10px;
+}
+.item1{
+    grid-column: 1/4;
+}
+/*
 .infocontainer{
     width: 100%;
     padding: 20px;
@@ -21,9 +40,7 @@
     font-size: large;
 }
 
-.makecenter {
-    text-align: center;
-}
+
 .lcolgeninfo{
     float: left;
     width: 20%;
@@ -51,3 +68,4 @@ ul{
     display: inline-block;
     width: 100%;
 }
+ */
