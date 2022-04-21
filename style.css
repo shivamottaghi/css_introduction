@@ -1,7 +1,4 @@
-table ,th ,td {
-    alignment: center;
-    border: darkgray solid medium;
-}
+
 
 div{
     text-align: center;
@@ -26,4 +23,19 @@ span{
 .header{
     background-color: #c690ff;
     width: 100%;
+}
+.infocontainer{
+    width: 100%;
+    padding: 20px;
+}
+.generalinfotable{
+    font-size: large;
+}
+
+.makecenter {
+    text-align: center;
+}
+.colgeninfo{
+    display:inline-block;
+    width:50%;
 }
