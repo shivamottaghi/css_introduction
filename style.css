@@ -1,8 +1,4 @@
 
-/*ul {
-    text-align: center;
-    list-style-position: inside;
-}*/
 #selfimage{
     height: 200px;
 }
@@ -28,8 +24,19 @@
 .makecenter {
     text-align: center;
 }
-.colgeninfo{
-    display:inline-grid;
+.lcolgeninfo{
+    float: left;
+    width: 20%;
+
+}
+
+.mcolgeninfo{
+    width: 20%;
+
+}
+.rcolgeninfo{
+    float: right;
+    width: 20%;
 
 }
 .inforow{
