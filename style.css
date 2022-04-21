@@ -1,8 +1,8 @@
 
-ul {
+/*ul {
     text-align: center;
     list-style-position: inside;
-}
+}*/
 #selfimage{
     height: 200px;
 }
@@ -29,6 +29,18 @@ ul {
     text-align: center;
 }
 .colgeninfo{
-    display:inline-block;
-    width:50%;
+    display:inline-grid;
+
+}
+.inforow{
+    display: block;
+    width: 100%;
+}
+
+ul{
+    display: inline;
+}
+.gridtable{
+    display: inline-block;
+    width: 100%;
 }
