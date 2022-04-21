@@ -13,7 +13,7 @@
 
 .header{
     padding: 10px ;
-    background-color: #c690ff;
+    background-color: #646097;
     margin: fill;
 }
 .makecenter {
@@ -25,11 +25,31 @@
     grid-template-columns: auto auto auto auto auto auto;
     align-content: center;
     gap: 10px;
-    background-color: #a79aff;
+    background-color: #1e4e7a;
     padding: 10px;
 }
 .item1{
-    grid-column: 1/4;
+    grid-column: 1/2;
+    background-color: #97ceff;
+    align-content: center;
+    display: flex;
+}
+.item2{
+    grid-column: 3/4;
+    background-color: #8cbbff;
+    align-content: center;
+    display: flex;
+}
+
+.item3{
+    grid-column: 5/6;
+    background-color: #9aa5ff;
+    align-content: center;
+    text-align: center;
+    display: flex;
+}
+#emotionpic{
+    height: 100px;
 }
 /*
 .infocontainer{
