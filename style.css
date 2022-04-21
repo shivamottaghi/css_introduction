@@ -23,3 +23,7 @@ ul {
 span{
     vertical-align: middle;
 }
+.header{
+    background-color: #c690ff;
+    width: 100%;
+}
